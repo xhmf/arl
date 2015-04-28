@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6A0A8B8-36A0-BF27-9823-29E4DF2B4520" name="NL_Doc">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="3FFF61AA-350F-CF94-5765-E6778BC6CED4">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>F11593C5-F25D-4991-3747-DFFE4FDACFFE</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="filename" id="14967D83-44D6-7B07-46D3-CEED92173A6C">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>F5D99898-1E0D-7F5C-7BC0-FD875980D40D</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="file_mimetype" id="4F1F061F-5525-5C5B-DAA0-862F63D4324D">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>932C0212-E698-9852-4176-ACE69E3FB747</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_charset" id="1C2B638E-0048-364B-C639-2FD90C209BFB">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>18E1F314-24E7-A819-78CF-5883E208B56B</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+</Attribute>
+<Attribute name="file_data" id="981E09CF-ADE2-298C-58D3-D0FF20C47A78">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>A43DD60E-0BCA-859A-AAA6-A7748BB408ED</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="file_comments" id="1B757E21-C5A6-CEB7-24C0-064F02224E41">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>1AFA2B8D-6EA7-42C5-827E-CFB32120BBD0</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="tags" id="C7E66A82-7AC2-88C4-AE70-6D6CEE37D5B9">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<importedID>F70041F8-1DEB-A96B-3F68-C5B9FF6A25CC</importedID>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="EMPLOYEE_ID" id="371F91BC-3D3F-0190-3922-94A2D6C66C03">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:10:38 UTC</createdTime>
+<generatorID>473EBE67-5A4E-DAE8-272F-BC77047709A6</generatorID>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>465994CF-7CAE-B44B-1EAA-2B36B3811027</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0A41C28-EA13-7E81-ABA0-AEA339E10857" name="{entity} PK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-28 16:09:49 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FFF61AA-350F-CF94-5765-E6778BC6CED4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

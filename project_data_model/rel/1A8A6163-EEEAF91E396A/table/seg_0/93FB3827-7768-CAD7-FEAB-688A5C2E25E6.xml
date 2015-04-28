@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93FB3827-7768-CAD7-FEAB-688A5C2E25E6" name="NL_List">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>51F7ABFD-4854-35E2-FA96-182762A1D044</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LIST_ID" id="666D3262-54E6-8C6C-7F33-81FAFC3A9149">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>CCD25B33-4A45-2299-A986-CAB8D3EB0D9A</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIST_NAME" id="B0E38B09-595F-A70E-08AF-DECEE6695995">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>52FBD3B6-9CB6-4EE8-735D-755324309943</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNERSHIP_DIV_CODE" id="0270BFA3-B4CF-6193-BE35-BFA7475891E2">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>ACE8E26C-969F-5E65-3A03-F6BE07234DD2</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIST_DESCRIPTION" id="FD01CE36-89FA-9F50-B8A9-0EC00E9433A0">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>BDF3D1F0-8D7A-F535-B4EB-5E9181D3F372</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3500</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTERNAL_VIEW_NAME" id="F0AB561E-5CC2-5A93-D456-D9DCDD069590">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>FB62AA6E-B79C-D845-ED08-0668D1E101FF</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="30CA7673-149C-6B60-5A16-67D160D16F56">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>3C1CEB59-3EAD-22DD-81BF-B7526B52EA9C</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIST_STATUS" id="5A139209-491E-ACE9-A36B-5222C6E7A08D">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>917C9402-8A34-46AC-C2B9-323822BB3541</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_EFF_DATE" id="1AEEEF83-C797-24BE-43C8-6E23979DEE82">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>BBE94018-78B2-1FF9-7C4C-F10E77FA3E72</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="726EDD7A-3178-8E1A-FE65-4E311125B652" name="NL_List_PK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>E1CA3BC7-A809-6EB3-63B0-A1FF6F70A8EF</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="666D3262-54E6-8C6C-7F33-81FAFC3A9149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

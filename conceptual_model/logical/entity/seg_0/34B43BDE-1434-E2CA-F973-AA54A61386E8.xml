@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34B43BDE-1434-E2CA-F973-AA54A61386E8" name="Notice_Lists">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:56:10 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LIST_SEQ_ID" id="D0E82B8F-9B36-7FCD-BD4F-9AB565791218">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:56:28 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="LIST_NAME" id="FEE1B171-FFB9-7814-3C70-4D89C9C572C8">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:56:43 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute name="OWNERSHIP_DIV_CODE" id="0096B859-FA39-7F41-2E9E-C04F488B54C0">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:58:10 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="LIST_DESCRIPTION" id="44D22D65-96F4-978C-FE4B-2E751937A3ED">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:58:27 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3500</dataTypeSize>
+</Attribute>
+<Attribute name="EXTERNAL_VIEW_NAME" id="DB0D689E-47DA-E62B-3CBA-968968710DA9">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:58:50 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="CREATION_DATE" id="B45813D7-3E17-43C7-1178-993A00A75C03">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:59:10 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="LIST_STATUS" id="AF1D48E4-7761-FCFA-90F2-E27C66F048ED">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:59:23 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="STATUS_EFF_DATE" id="3FB49B91-21BE-621A-5EBF-CD1D24C29D35">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 19:00:14 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="314141A0-7F2E-B2E1-A18C-FAC67DF276FE" name="{entity} PK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-01 18:56:42 UTC</createdTime>
+<ownerDesignName>conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="5EAED849-F950-4AD6-74B0-FD296C2C6D81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0E82B8F-9B36-7FCD-BD4F-9AB565791218</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

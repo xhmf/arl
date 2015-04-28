@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFAA50B0-C4E9-3AA5-E671-037F336F2EE3" name="NL_Emp">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:18:33 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMP_ID" id="6BE442D8-7B63-E632-9A68-8BF36673B2BB">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:18:51 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="EMP_NAME" id="E8731633-ACF8-E731-D684-4F92BF8A86C9">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:19:46 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="EMP_LAB" id="A38FA9B6-61E4-1075-DEAC-DDCD7C0829A6">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:20:07 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="EMP_DIVISION" id="2E530792-5D44-8AF5-9394-FF472D96084C">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:20:52 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="EMP_STATUS" id="8B0EED83-2D01-00C6-551E-D83AB1C7A73F">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:21:11 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="STATUS_EFF_DATE" id="C8C9B8B3-DABF-02E5-E9B0-DE902C66ACED">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:21:40 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="IS_ADMIN" id="28222E72-F8F1-E6DD-C287-973BCD4618D1">
+<createdBy>john</createdBy>
+<createdTime>2015-04-23 19:23:22 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CAA28987-3CF4-A8A6-B6C9-3F14F233D32B" name="{entity} PK">
+<createdBy>john</createdBy>
+<createdTime>2015-03-30 21:19:41 UTC</createdTime>
+<ownerDesignName>project_data_model</ownerDesignName>
+<engineerTo>
+<item key="1A8A6163-3197-2D9F-7A14-EEEAF91E396A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BE442D8-7B63-E632-9A68-8BF36673B2BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

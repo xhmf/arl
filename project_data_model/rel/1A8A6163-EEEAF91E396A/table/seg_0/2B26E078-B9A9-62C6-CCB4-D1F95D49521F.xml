@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B26E078-B9A9-62C6-CCB4-D1F95D49521F" name="NL_Emp">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>BFAA50B0-C4E9-3AA5-E671-037F336F2EE3</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="77DC4453-C34E-CEE5-3980-D2DE3429FCB3">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>6BE442D8-7B63-E632-9A68-8BF36673B2BB</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_NAME" id="F8E68BC1-DB36-FD5B-B071-4FEC0C006CCC">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>E8731633-ACF8-E731-D684-4F92BF8A86C9</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_LAB" id="B5CBED47-F973-F23C-EF29-ED74CF9CE27D">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>A38FA9B6-61E4-1075-DEAC-DDCD7C0829A6</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_DIVISION" id="A4BF834C-1B13-3651-B4E3-82FBC0E55A2E">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>2E530792-5D44-8AF5-9394-FF472D96084C</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_STATUS" id="791F5999-F2E3-48C6-7552-BA180A57C732">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>8B0EED83-2D01-00C6-551E-D83AB1C7A73F</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_EFF_DATE" id="A43D6B01-41CF-640D-7273-F1107E424978">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>C8C9B8B3-DABF-02E5-E9B0-DE902C66ACED</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_ADMIN" id="90A2DC72-297C-84C4-8E5A-A07CB032F6EB">
+<createdBy>john</createdBy>
+<createdTime>2015-04-23 19:25:21 UTC</createdTime>
+<generatorID>28222E72-F8F1-E6DD-C287-973BCD4618D1</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECEBA81A-897E-2CDE-824D-9DF0D07A9EDB" name="NL_Emp_PK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>CAA28987-3CF4-A8A6-B6C9-3F14F233D32B</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77DC4453-C34E-CEE5-3980-D2DE3429FCB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

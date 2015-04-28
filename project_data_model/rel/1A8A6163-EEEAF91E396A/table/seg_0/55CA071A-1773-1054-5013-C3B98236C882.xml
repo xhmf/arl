@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55CA071A-1773-1054-5013-C3B98236C882" name="NL_Mem">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>0D94BDBD-F98C-1C8B-8589-EBB3707E7244</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_LIST_ID" id="DF1952E4-F624-769E-D09E-A1B7CCCC93C2">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>74289D2C-B311-800A-9E94-0B6A7BD097DE</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_ADDED" id="FC025ECA-D1A0-4FF1-FBCB-7AA7C93E0EF1">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>C944381E-C67B-8911-51B6-3BE78B68C5E2</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NL_Emp_EMP_ID" id="27F79B6E-6B8C-C1E9-E7FC-9E05FB7AFB71">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>ABFD2734-3A70-B84F-66D3-FE6930167770</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>77DC4453-C34E-CEE5-3980-D2DE3429FCB3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B72DA73-F159-7436-179B-76E9044F7D89" referredColumn="77DC4453-C34E-CEE5-3980-D2DE3429FCB3"/>
+</associations>
+</Column>
+<Column name="NL_List_LIST_ID" id="098FBD75-6B83-42F2-0616-96FB8D5344A3">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>1CA6C862-7B55-1FF8-2432-539E2C34D2E8</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>666D3262-54E6-8C6C-7F33-81FAFC3A9149</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6F54807-BEAD-AAFF-1D17-462FFE1A8765" referredColumn="666D3262-54E6-8C6C-7F33-81FAFC3A9149"/>
+</associations>
+</Column>
+<Column name="NL_List_LIST_ID1" id="CA8FE3AB-68AD-CC43-693A-F3725D777C36">
+<createdBy>john</createdBy>
+<createdTime>2015-04-24 20:08:21 UTC</createdTime>
+<generatorID>71F4B4AA-8998-5E3B-3AEC-EBFD5D1DDD2A</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>666D3262-54E6-8C6C-7F33-81FAFC3A9149</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C447DC64-7793-E935-0831-B53AD10E9227" referredColumn="666D3262-54E6-8C6C-7F33-81FAFC3A9149"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CD19035-705B-5825-85E5-44CA212CAC6B" name="NL_Mem_PK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>2A83F1BD-39E1-E1F7-F477-B42A3C42D214</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1952E4-F624-769E-D09E-A1B7CCCC93C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7F400BA-4170-1B47-65B5-AC2AE10D8055" name="NL_Mem_NL_Emp_FK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>CE0AD263-DDFA-07BD-B982-18618EF7A933</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27F79B6E-6B8C-C1E9-E7FC-9E05FB7AFB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9B691CD-DE89-DD83-ACA6-7A9B572345BD" name="NL_Mem_NL_List_FK">
+<createdBy>john</createdBy>
+<createdTime>2015-04-20 19:30:21 UTC</createdTime>
+<generatorID>9785FA05-E7BA-8D1E-A183-C75FD74B5F4F</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098FBD75-6B83-42F2-0616-96FB8D5344A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC1AF39-3076-35C0-5D7E-CAF798E6AFDB" name="NL_Mem_NL_List_FKv1">
+<createdBy>john</createdBy>
+<createdTime>2015-04-24 20:08:21 UTC</createdTime>
+<generatorID>A1372208-F26F-ABA1-D8AE-EE3E71832377</generatorID>
+<ownerDesignName>project_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8FE3AB-68AD-CC43-693A-F3725D777C36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

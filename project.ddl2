@@ -1,0 +1,76 @@
+DROP SEQUENCE NL_Doc_seq ; 
+create sequence NL_Doc_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Doc_PK_trig 
+; 
+
+create or replace trigger NL_Doc_PK_trig 
+before insert on NL_Doc
+for each row 
+begin 
+select NL_Doc_seq.nextval into :new.document_id from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_Emp_seq ; 
+create sequence NL_Emp_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Emp_PK_trig 
+; 
+
+create or replace trigger NL_Emp_PK_trig 
+before insert on NL_Emp
+for each row 
+begin 
+select NL_Emp_seq.nextval into :new.EMP_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_List_seq ; 
+create sequence NL_List_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_List_PK_trig 
+; 
+
+create or replace trigger NL_List_PK_trig 
+before insert on NL_List
+for each row 
+begin 
+select NL_List_seq.nextval into :new.LIST_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NL_Mem_seq ; 
+create sequence NL_Mem_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NL_Mem_PK_trig 
+; 
+
+create or replace trigger NL_Mem_PK_trig 
+before insert on NL_Mem
+for each row 
+begin 
+select NL_Mem_seq.nextval into :new.MEMBER_LIST_ID from dual; 
+end; 
+/
+
+DROP INDEX NL_Emp_EMP_ID_FK_0 ;
+CREATE INDEX NL_Emp_EMP_ID_FK_0 ON NL_Doc(NL_Emp_EMP_ID) ;
+DROP INDEX NL_Emp_EMP_ID_FK_1 ;
+CREATE INDEX NL_Emp_EMP_ID_FK_1 ON NL_Mem(NL_Emp_EMP_ID) ;
+DROP INDEX NL_List_LIST_ID_FK_2 ;
+CREATE INDEX NL_List_LIST_ID_FK_2 ON NL_Mem(NL_List_LIST_ID) ;
+DROP INDEX NL_List_LIST_ID1_FK_3 ;
+CREATE INDEX NL_List_LIST_ID1_FK_3 ON NL_Mem(NL_List_LIST_ID1) ;
